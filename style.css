@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background-image: url("./imgs/chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+/**REVIEW - əsas div */
+
+.əsas {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/**REVIEW - Header şəkili */
+
+.əsas img {
+    display: block;
+}
+
+
+
+
+/**REVIEW -  Body hissəsi */
+
+#orta {
+    background-color: orange;
+}
+
+
+/**REVIEW -  Body'nin sol hissəsi */
+
+.sol {
+    width: 240px;
+    float: left;
+}
+
+/** Body'nin sol hissəsi - menu */
+
+.sol-menu {
+    width: 240px;
+    background-color: #34393D;
+}
+
+/** Body'nin sol hissəsi - menun'un şəkilli (altlı - üstlü olan) */
+
+.sol img {
+    width: 240px;
+    display: block;
+}
+
+/** Body'nin sol hissəsi - menu (a)lar */
+
+.sol-menu ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+/** Body'nin sol hissəsi - menu (a)ların (hover)i */
+
+.sol-menu ul li a:hover {
+    background-color: orange;
+    border-right: 10px solid orangered;
+    color: black;
+    padding-left: 20px;
+}
+
+
+
+
+/**REVIEW -  Body'nin sağ hissəsi */
+
+.sağ {
+    width: 720px;
+    float: left;
+    margin-top: 17px;
+}
+
+/** Body'nin sağ hissəsi - menu */
+
+.sağ .üst-menu {
+    display: block;
+    width: 720px;
+    height: 50px;
+}
+
+/** (float)ları təmizləmək üçün boş div */
+
+.temizle {
+    clear: both;
+}
+
+/** Body'nin sağ hissəsi - menu (li) */
+
+.üst-menu ul li {
+    float: left;
+}
+
+/** Body'nin sağ hissəsi - menu (a)lar */
+
+.üst-menu ul li a {
+    width: 237px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-right: 1px solid black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+/** Body'nin sağ hissəsi - menu (a)ların (hover)i */
+
+.üst-menu ul li a:hover {
+    color: black;
+    background-color: orangered;
+}
+
+
+
+
+/** Body'nin məzmun hissəsi */
+
+.məzmun {
+    width: 720px;
+    background-color: white;
+    text-align: justify;
+}
+
+
+/** Body'nin serial şəkili */
+
+.ana-resim {
+    width: 720px;
+    height: 300px;
+    display: block;
+    text-align: left;
+}
+
+
+/** Body'nin "serial şəkil"inin altındakı "tək" şəkil */
+
+.logo {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 15px auto;
+}
+
+/** Body'nin  "tək" şəkilin altında olan (h1) və (4) (button)a oxşar hissədə olan (h2) */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/** Body'nin (4) (button)a oxşar hissənin altında olan (p)lər */
+
+p {
+    line-height: 140%;
+}
+
+
+/** Body'də tək şəkilin altında olan (4) (button)a oxşar hissə */
+
+.söz {
+    background-color: #B8860B;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 10px 0px;
+}
+
+
+
+/** Footer hissəsi */
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
